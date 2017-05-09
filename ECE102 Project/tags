@@ -1,0 +1,21 @@
+HEIGHT	bitcrypt.c	22
+HEIGHT	bitdecrypt.c	7
+HEIGHT	program.c	22
+Mbitcrypt	bitcrypt.c	/^int main (int argc, char * argv[]) $/
+Mbitdecrypt	bitdecrypt.c	/^int main( int argc, char* argv[])$/
+Mprogram	program.c	/^int main (int argc, char * argv[]) $/
+WIDTH	bitcrypt.c	21
+WIDTH	bitdecrypt.c	6
+WIDTH	program.c	21
+bdata	bitdecrypt.c	10
+blue_pixel	bitcrypt.c	27
+blue_pixel	program.c	28
+boxdraw	program.c	/^void boxdraw(unsigned int red,unsigned int blue, u/
+drawbmp	bitcrypt.c	/^void drawbmp (char * filename) $/
+drawbmp	program.c	/^void drawbmp (char * filename) $/
+gdata	bitdecrypt.c	9
+green_pixel	bitcrypt.c	26
+green_pixel	program.c	27
+rdata	bitdecrypt.c	8
+red_pixel	bitcrypt.c	25
+red_pixel	program.c	26
